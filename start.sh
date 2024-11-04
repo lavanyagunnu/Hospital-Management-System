@@ -1,10 +1,8 @@
-# https://testdriven.io/courses/tdd-flask/getting-started/
-mkdir flask-tdd-docker && cd flask-tdd-docker
-mkdir src
-python3.12 -m venv env
-source env/bin/activate
-
-#pip install -r requirements
-
-export FLASK_APP=src/__init__.py
-python manage.py run
+# sudo apt update
+# sudo apt install python3.10-venv
+# rm -rf /workspace/Hospital-Management-System/.venv
+# python3 -m venv /workspace/Hospital-Management-System/.venv
+# activate python3.10 vene .venv using - source /workspace/Hospital-Management-System/.venv/bin/activate
+# pip install flask
+# to confirm everthing is running okay - python -m flask --version
+# flask run
